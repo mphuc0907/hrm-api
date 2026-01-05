@@ -32,5 +32,5 @@ func ConnectMongoDB() {
 	EmployeeCollection = db.Collection("employees")
 	UserCollection = db.Collection("users")
 
-	log.Println("✅ Connected to MongoDB")
+	log.Println("Connected to MongoDB")
 }

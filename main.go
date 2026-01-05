@@ -13,5 +13,5 @@ func main() {
 	config.ConnectMongoDB()
 	routes.SetupRoutes(r)
 
-	r.Run(":8080")
+	r.Run(":8060")
 }
